@@ -21,6 +21,5 @@ public class Password_generator {
         int largo;
         largo = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la longitud de la contraseña"));
         JOptionPane.showMessageDialog(null, pwd(largo));
-        //System.out.println(pwd(largo));
     }
 }
